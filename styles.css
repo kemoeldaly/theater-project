@@ -9,10 +9,10 @@ header {
   color: #fff;
   padding: 15px;
 }
-
-#main-img {
+ 
+ #main-img {
   width: 100%;
-}
+} 
 
 nav {
   display: flex;
@@ -20,9 +20,21 @@ nav {
   align-items: center;
 }
 
-.title {
+.featured {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  width:100%;
+}
+
+header h1 {
   display: flex;
-  margin-right: auto;
+  position: absolute;
+  font-size: 60px;
+  margin-top: 400px;
+  margin-left: 650px;
+ letter-spacing: 10px;
 }
 
 nav ul {
@@ -45,7 +57,7 @@ nav a {
 
 section {
   position: absolute;
-  width: 1200px;
+  width: 900px;
   margin-top: 50px;
   margin-left: 400px;
   border: 1px solid black;
@@ -60,7 +72,7 @@ section {
 
 .grid-container {
   display: grid;
-  width: 700px auto;
+  width: 900px auto;
   padding: 50px;
   border-bottom: 1px solid black;
   justify-content: space-around;
